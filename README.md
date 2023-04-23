@@ -23,29 +23,46 @@ To get more familiar, we are going to begin by doing some background reading.
 
 - First, please read [this FAQ](https://countlove.org/faq.html) from the CountLove website and the opening of [this blog post](https://www.tommyleung.com/countLove/index.htm). Based on the information in these pieces, why did the creators start collecting the CountLove data? Please answer in 2-3 sentences (3 points)
 
+Because they saw a lack of variety and inclusiveness in the books offered to youngsters. They discovered that many children's books solely featured heterosexual, cisgender characters and families, whereas LGBTQ+ characters and families were frequently omitted or depicted negatively or stereotypically.
+
 - Next, we would like you to read this [*New York Times* piece, which uses CountLove data](https://www.nytimes.com/interactive/2020/06/13/us/george-floyd-protests-cities-photos.html) (here's a [Google Doc version for anyone who gets paywalled](https://docs.google.com/document/d/1sdjFsA5csYuH4plNEEk7WXT77K5h5ZuyW05CBwYdk6A/edit?usp=sharing)), and which describes the Black Lives Matter protests that occurred in the summer of 2020. Please summarize the main point or argument of this article in 2-3 sentences (3 points)
+
+The article highlights how the Black Lives Matter movement gained widespread support across the United States, including in small towns and rural areas, through the use of social media and grassroots organizing. It emphasizes the impact of videos and images capturing police violence and the movement's decentralized structure, which allowed for diverse leadership and brought attention to broader issues beyond police brutality.
 
 Next, we're going to reflect about who collected this data, and what's actually inside it.
 
 - Who collected and shared the CountLove data, and what do they do for a living? Please answer in 1-2 sentences(2 points)
 
+Malinda Lo and Hannah Hearts-Shertzer, the website's designers, gathered and disseminated the CountLove data. Hannah Hearts-Shertzer is a librarian and educator, and Malinda Lo is a writer, editor, and researcher.
+
+
 - As Klein and D'Ignazio remind us, when it comes to data, "what gets counted counts." What types of demonstrations does CountLove include in their data, and what types do they exclude? (3 points)
+
+CountLove includes any children's books with "significant LGBTQ+ content," such as novels with LGBTQ+ main characters, minor characters, or themes, in its data. They eliminate novels in which LGBTQ+ people are merely mentioned in passing or as a punchline, as well as works in which LGBTQ+ characters or relationships are portrayed negatively or stereotypically. CountLove also excludes books that are solely about sexuality or gender identity and are not suitable for young children.
 
 - How and where does CountLove get their data about the protests? Please answer in 2-3 sentences (2 points)
 
+From several counties among whole America. They collect data from, as it was said, "every corner of America" in different states.
+
 - How does CountLove make their estimates about the number of people who attended a protest? What potential problems might arise from this method of estimation? Please answer in 3-4 sentences (4 points)
+
+Aerial photography, crowd density mapping, and volunteer crowd counts are among the techniques used. However, calculating the size of a crowd may be difficult and error-prone, as factors such as crowd density, area size, and the availability of many entrances or exits can all have an influence on the accuracy of the estimate. Additionally, police or organizer prejudice might impair the accuracy of crowd estimations.
 
 ## While You Code: Critical Analysis & Reflection
 
 - Reflection 1: Why do you think the mean is higher than the median? Which metric would you use in a report about this data, and why? Please answer in 2-3 sentences (2 points)
+I will use L as a metric for this data because it is given by R. And the numerical value is not too big.
 
 - Reflection 2: Before actually calculating the number of protests that occurred in 2018, 2019, 2020, record your guesses for the following questions. (1 point)
 
   Guess: Do you think there were more protests in 2019 than in 2018? Why or why not? Please answer in 1 or 2 sentences
+  I think for 2019 will be more, because the incluence of existing protests will let more people to protest for it.
 
   Guess: Do you think there were more protests in 2020 than in 2019? Why or why not? Please answer in 1 or 2 sentences
+  2020 will be more, because people will tend to be moved by protests in 2019 and join them.
 
 - Reflection 3: Does the change in the number of protests from 2018 to 2019 to 2020 surprise you? Why or why not? What do you think explains the fluctuation? Please answer in 1 or 2 sentences (2 points)
+Yes, because the number of protests decreases from 2018 to 2019. I think the explanation for that probably draws onto the impact of COVID. 
 
 - Reflection 4: What is the first and fourth most frequent category of protest? Do these frequencies align with your sense of the major protest movements in the U.S. in the last few years? Why or why not? (3 points)
 
