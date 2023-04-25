@@ -135,6 +135,15 @@ count_in_location <- function(location) {
   print(paste0("There were ", N, " protests in ", location, "."))
 }
 
+count_protests_in_location <- function(location){
+  N <- sum(str_detect(num_location, location))
+  if(N > 0){
+    print(paste0("There were ", N, " protests in ", location, "."))
+  } else{
+    print(paste0("Sorry, that location is not found."))
+  }
+}
+
 # (3.f) Use your `count_protests_in_location()` function above to compute the
 # number of protests in "Washington, DC" and return the resulting message
 # Save the resulting message in a variable called `dc_summary`
@@ -191,6 +200,7 @@ time_span <- difftime(most_recent_protest, earliest_protest)
 # Store this value in a variable called `protests_in_2020`
 protests_in_2020 <- subset(dates, format(dates, "%Y") == 2020)
 
+protests_in_2017 <- subset(dates, format(dates, "%Y") == 2017)
 # (4.f) Create a vector of only the dates that are in 2019.
 # Note: If you want only dates after a certain start date, you can use
 # "2020-01-01" with comparison operators (==, >=, <=)
@@ -230,7 +240,7 @@ num_protets_in_2020 <- length(protests_in_2020)
 
 # (5.a) Extract the `Event..legacy..see.tags.` column into a variable called
 # `purposes`
-purposes <- protest_data$'Event(legacy;see.tags)'
+purposes <- protest_data$'Event..legacy..see.tags.'
 
 # (5.b) How many different unique purposes are listed in the dataset?
 # Save this NUMBER in a variable called `num_purposes`
